@@ -52,6 +52,7 @@ function nextSlide() {
 document.addEventListener('keyup', function (event) {
     if (event.key === 'Enter' && event.target.classList.contains('common-input')) {
         nextSlide();
+        getValue();
     }
 });
 
