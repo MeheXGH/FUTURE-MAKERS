@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Makers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="nav">
+            <div class="logo">
+                Future <br><span> Makers</span>
+            </div>
+
+            <div class="more">
+                <div class="dropdown">
+                    <button id="dropdownButton" class="dropbtn">&#9776;</button>
+                    <div id="dropdownContent" class="dropdown-content">
+                        <a href="#">My Profile</a>
+                        <a href="#">About Us</a>
+                        <a href="#">Log-in</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- <div class="more">
+                <a href="#">&#9776;</a>
+            </div> -->
+
+        </div>
+    </div>
+    <div class="con1">
+        <div class="main">
+            <div class="slider">
+
+                <div class="q-box slide active">
+                    <label class="in-tx" for="userInput">Enter Your Name</label><br>
+                    <input id="userInput" class="in-bx common-input" type="text" placeholder="Your name..." required>
+                    <button onclick="nextSlide(), getValue()" class="button-86 next-slide">Next</button>
+                </div>
+
+                <div class="q-box slide">
+                    <p id="userNameDisplay"></p>
+                    <label class="in-tx" for="userInput2">Enter Your Age</label><br>
+                    <input id="userInput2" class="in-bx common-input" type="number" placeholder="Your age..." required>
+
+                    <div class="bt-box">
+
+                        <button onclick="previousSlide()" class="button-86 prev-slide">Prev</button>
+
+
+                        <button onclick="nextSlide(), getValue()" class="button-86 next-slide">Next</button>
+                    </div>
+                </div>
+
+                <div class="q-box slide">
+                    <label class="in-tx" for="userInput3">Enter Your Class</label><br>
+                    <input id="userInput3" class="in-bx common-input" type="text" placeholder="Your class 10 or 12..." required>
+
+                    <div class="bt-box">
+
+                        <button onclick="previousSlide()" class="button-86 prev-slide">Prev</button>
+
+
+                        <button onclick="nextSlide(), getValue()" class="button-86 next-slide">Next</button>
+                    </div>
+                </div>
+
+                <div class="q-box slide">
+                    <label class="in-tx" for="userInput4">Enter Your Marks</label><br>
+                    <input id="userInput4" class="in-bx common-input" type="text" placeholder="Your marks in %..." required>
+
+                    <div class="bt-box">
+
+                        <button onclick="previousSlide()" class="button-86 prev-slide">Prev</button>
+
+
+                        <button onclick="nextSlide(), getValue()" class="button-86 next-slide">Next</button>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
