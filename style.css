@@ -235,3 +235,48 @@ input[type=number]::-webkit-outer-spin-button{
   margin-top: 15px;
 }
 
+@media (max-width: 766px) {
+
+.main{
+  width: 250px;
+  margin: 100px 0px ;
+}
+
+.slider{
+  width: 250px;
+}
+.q-box{
+  width: 250px;
+}
+.in-tx {
+  font-size: 25px;
+  margin-top: 15px;
+}
+.in-bx{
+  height: 30px;
+  width: 180px;
+}
+
+.button-86{
+  width: 30px;
+  height: 20px;
+  margin: 15px 30px;
+}
+.more a {
+  font-size: 14px;
+}
+.dropdown-content a{
+padding: 8px;
+}
+.dropdown-content{
+  min-width: 110px;
+  right: 0;
+  top: 56px;
+}
+#userNameDisplay{
+  font-size: 20px;
+  margin-top: 15px;
+
+}
+
+}
